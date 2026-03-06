@@ -29,6 +29,9 @@ h="python"
 print(h.find("y")) # first occurence of substring , gives index
 
 
+
+
+
 print("replace() ==>")
 
 h2="python is"

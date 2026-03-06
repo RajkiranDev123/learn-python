@@ -1,0 +1,20 @@
+
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> ssh-keygen -t ed25519 -C "rajtech645@gmail.com"
+
+Enter file in which to save the key (C:\Users\HP/.ssh/id_ed25519): enter
+Enter passphrase (empty for no passphrase): enter
+Enter same passphrase again: enter
+
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> type $env:USERPROFILE\.ssh\id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMxI+BLKbYYo5IrzHPELqSfEY4YhzHNqBM/JHbGXeXRN rajtech645@gmail.com
+
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> git remote set-url origin git@github.com:RajkiranDev123/learn-python.git
+
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> git push -u origin main
+
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> git config --global user.name "RajkiranDev123"
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> git config --global user.email "rajtech645@gmail.com"
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> git config --global user.email                       
+rajtech645@gmail.com
+PS C:\Users\HP\OneDrive\Desktop\AI\clones\python1> git config --global user.name  
+RajkiranDev123
