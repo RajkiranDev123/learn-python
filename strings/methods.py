@@ -24,27 +24,27 @@ print(str2.swapcase())  # aB
 
 print("find() ==>")
 
-h="python"
+h = "python"
 
-print(h.find("y")) # first occurence of substring , gives index
-
-
-
+print(h.find("y"))  # first occurence of substring , gives index
 
 
 print("replace() ==>")
 
-h2="python is"
-print(h2.replace("python","java"))
+h2 = "python is"
+print(h2.replace("python", "java"))
 
 print("split() and join() ==>")
 
-v="a,b,c"
+v = "a,b,c"
 
-print()
+vo = v.split(",")  # ['a', 'b', 'c']
+print(vo)
+no = "-".join(vo)
+
+print(no)
 
 
-
-
+print("checking methods==========>")
 
 
