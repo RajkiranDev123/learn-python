@@ -48,3 +48,19 @@ print(no)
 print("checking methods==========>")
 
 
+g="python"
+
+print(g.startswith("P")) # False
+print(g.startswith("p"))
+
+print(g.endswith("n"))
+
+print(g.isalpha()) # check all are alphabets
+
+print(g.isdigit())
+
+print(g.isalnum())
+
+
+
+
