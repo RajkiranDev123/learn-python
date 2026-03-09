@@ -26,12 +26,12 @@ print("methods ==>")
 # get
 
 p = {"id": 1, "name": "raj", "roll": 20}
-n=p.get("idm","not found")
+n = p.get("idm", "not found")
 print(n)
 
 # keys
 
-v=p.keys()
+v = p.keys()
 
 print(v)
 print(list(v))
@@ -40,13 +40,24 @@ print(list(p.values()))
 
 # items
 
-print(list(p.items())) # [('id', 1), ('name', 'raj'), ('roll', 20)]
+print(list(p.items()))  # [('id', 1), ('name', 'raj'), ('roll', 20)]
 
 
 # pop
 
-popped=p.pop("roll","not found")
+popped = p.pop("roll", "not found")
 print(popped)
 print(p)
 
-# 
+# popitem
+
+pi = p.popitem()
+print(66, pi)  # ('name', 'raj')
+print(p)  # {'id': 1}
+
+
+# clear
+print(p)
+p.clear()
+print(p)
+# print(p.clear())
