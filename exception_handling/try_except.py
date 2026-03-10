@@ -4,7 +4,11 @@
 
 # runtime : in the middle of execution : try/except
 
-# logical errors : 
+# logical errors : incorrect output
+
+# Syntax Error  → program doesn't run
+# Runtime Error → program crashes
+# Logical Error → program runs but wrong output
 
 
 try:
